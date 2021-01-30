@@ -58,6 +58,23 @@ chef2 = ItalianChef.new
 chef2.method2
 
 
+class Invoice
+
+    def self.class_method
+        puts "this is a class method"
+    end
+
+    def instance_method
+        puts "this is a instance method"
+    end
+
+end
+
+Invoice.class_method
+
+obj = Invoice.new
+
+obj.instance_method
 
 
 
