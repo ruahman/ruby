@@ -77,7 +77,43 @@ obj = Invoice.new
 obj.instance_method
 
 
+class ApiConnector
+    attr_accessor :title, :description, :url
+
+    def initialize(title:, description:, url:)
+        @title = title
+        @description = description
+        @url = url
+        myprivatemethod
+    end
+
+    def test_method
+        puts "this is my test method"
+        puts "#{@title}, #{@description}, #{@url}"
+    end
+
+    private
+        def myprivatemethod
+            puts "this is private"
+        end
+end
+
+api = ApiConnector.new(
+    title: "foundation", 
+    description: "all work and no play", 
+    url: "www.google.com")
 
 
+class SmsConnector < ApiConnector
+    def send_sms
+        puts "send sms..."
+    end
+end
+# api.test_method
 
+testSms = SmsConnector.new(title: "your moma", description: "asfda", url:"www.faadsf.com")
 
+testSms.send_sms
+
+# this will cause a problem
+# testSms.myprivatemethod
