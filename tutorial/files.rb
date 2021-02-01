@@ -23,3 +23,5 @@ File.open('test.txt', 'a') do |file|
     file.puts "\ntribulation"
 
 end
+
+File.open('teeams.txt', 'w+') {|f| f.write("bulls", "black hawks", "cubs")}
