@@ -1,0 +1,3 @@
+--- !ruby/struct:Book
+title: Eloquent Ruby
+author: Russ Olsen
