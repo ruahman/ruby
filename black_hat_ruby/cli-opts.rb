@@ -1,0 +1,4 @@
+require 'optparse'
+
+options = {}
+
