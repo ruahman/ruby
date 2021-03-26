@@ -14,3 +14,5 @@ p testa
 testb = %w(this is an array)
 p testb
 p testb.join(',')
+
+
