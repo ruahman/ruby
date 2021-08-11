@@ -1,2 +1,0 @@
-
-users.size # 3
