@@ -1,11 +1,11 @@
-# Inside your app, load up the bundled environment: 
+# Inside your app, load up the bundled environment:
 require 'rubygems'
 require 'bundler/setup'
 
-# Run an executable that comes with a gem in your bundle: 
+# Run an executable that comes with a gem in your bundle:
 # ex: $ bundle exec rspec spec/models
 
-#  if you want a way to get a shortcut to gems in your bundle: 
+#  if you want a way to get a shortcut to gems in your bundle:
 # bundle install --binstubs
 # ex: $ bin/rspec spec/models
 

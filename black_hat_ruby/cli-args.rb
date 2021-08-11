@@ -1,3 +1,0 @@
-arguments = ARGV
-pp arguments
-

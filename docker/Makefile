@@ -5,7 +5,8 @@ image = ruby
 ports = 3000:3000
 path = $(shell pwd)
 network = ruby-net
-dockerFile = /home/ruahman/Projects/ruby/docker/Dockerfile
+# dockerFile = /home/ruahman/Projects/ruby/docker/Dockerfile
+dockerFile = $(path)/Dockerfile
 
 .PHONY: build
 build:
