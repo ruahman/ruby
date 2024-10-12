@@ -1,8 +1,0 @@
-Style/FrozenStringLiteralComment:
-  Enabled: false
-
-Layout/TrailingWhitespace:
-  Enabled: true
-
-Metrics/BlockLength:
-  IgnoredMethods: ['describe', 'context']
